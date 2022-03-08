@@ -1,0 +1,85 @@
+
+.head-text1{
+  
+   color: rebeccapurple;
+   width: 100%;
+   padding-left: 50%;
+   padding-top: 20px;
+   align-items: center;
+   letter-spacing: 4px;
+   
+   @media screen and (min-width: 1050px) {
+    padding-left: 25%;
+    padding-top: 20px;
+    align-items: center;
+    letter-spacing: 2px;}
+   
+}
+
+.app__about {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+
+  
+    
+  
+
+  
+  
+  .app__profiles {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    padding-top: 20px;
+  }
+  
+  .app__profile-item {
+    width: 190px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 2rem;
+  
+    img {
+      width: 100%;
+      height: 170px;
+      border-radius: 15px;
+      object-fit: cover;
+    }
+  
+    @media screen and (min-width: 2000px) {
+      width: 370px;
+      margin: 2rem 4rem;
+  
+      img {
+        height: 320px;
+      }
+    }
+  }
+
+  .custom-shape-divider-top-1646322647 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1646322647 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    
+}
+
+.custom-shape-divider-top-1646322647 .shape-fill {
+    fill: lightblue;
+}
